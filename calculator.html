@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>calcuator</title>
+    <link rel="stylesheet" href="calculator.css" />
+  </head>
+  <body>
+    <div class="flex-box">
+      <!--angka-->
+      <button class="button length" id="output">0</button>
+      <button class="button" onclick="tampilkanPesan(0)">0</button>
+      <button class="button" onclick="tampilkanPesan(1)">1</button>
+      <button class="button" onclick="tampilkanPesan(2)">2</button>
+      <button class="button" onclick="tampilkanPesan(3)">3</button>
+      <button class="button" onclick="tampilkanPesan(4)">4</button>
+      <button class="button" onclick="tampilkanPesan(5)">5</button>
+      <button class="button" onclick="tampilkanPesan(6)">6</button>
+      <button class="button" onclick="tampilkanPesan(7)">7</button>
+      <button class="button" onclick="tampilkanPesan(8)">8</button>
+      <button class="button" onclick="tampilkanPesan(9)">9</button>
+      <!--angka-->
+
+      <!--operator-->
+      <button class="button" onclick="ope('+')">+</button>
+      <button class="button" onclick="ope('-')">-</button>
+      <button class="button" onclick="ope('x')">x</button>
+      <button class="button" onclick="ope(':')">:</button>
+
+      <!--hasil-->
+      <button class="button" onclick="pengoperasi()">=</button>
+
+      <!--hasil-->
+
+      <!--reset-->
+      <button class="button" onclick="reset()">c</button>
+
+      <!--reset-->
+    </div>
+
+    <script src="calculator.js"></script>
+  </body>
+</html>

@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem 0;
+}
+.nav-link {
+  text-decoration: none;
+  color: #000324;
+  padding: 10px 20px;
+  border: 2px solid rgb(101, 5, 5);
+  background-color: rgb(101, 5, 5);
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.nav-link:hover {
+  border-color: #f0f0f0;
+  background-color: #555;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#home {
+  background-color: #000324;
+  color: rgb(101, 5, 5);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 5rem;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+}
+.highlighted-text {
+  background-color: #007bff;
+  color: white;
+  padding: 0.2em;
+  border-radius: 4px;
+}
+
+.about-body {
+  background-color: #000324;
+  padding: 126.5px;
+}
+.display-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-p {
+  margin-top: -20px;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(101, 5, 5);
+  width: 50%;
+  font-family: Arial, sans-serif;
+}
+.about-highlighted {
+  background-color: #007bff;
+  color: white;
+  padding: 0.2em;
+  border-radius: 4px;
+}
+
+/* Projects section */
+body {
+  background-color: #000324;
+}
+
+.project-body {
+  background-color: #010319;
+  padding: 242px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+}
+li:hover {
+  background-color: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 4px;
+}
+.list-project {
+  margin: 10px;
+  list-style-type: none;
+  color: rgb(101, 5, 5);
+  font-size: 25px;
+  border-bottom: 1px rgb(101, 5, 5) solid;
+}
+
+.todo-checkbox {
+  padding: 30px;
+  margin-left: 10px;
+}
+
+/* Contact section */
+.contact-body {
+  background-color: #000324;
+  padding: 254.6px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.contact-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-point {
+  margin-top: -100px;
+  font-size: 30px;
+  color: rgb(101, 5, 5);
+}
+
+/* Footer */
+.footer {
+  margin-top: auto;
+  padding: 20px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: #1f1f1f;
+}
